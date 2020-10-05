@@ -1,0 +1,8 @@
+.featureCard {
+  display: grid;
+  place-items: center;
+  color: var(--colwhite);
+  text-align: center;
+  max-width: 350px;
+  justify-content: space-evenly;
+}

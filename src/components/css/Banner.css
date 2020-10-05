@@ -1,0 +1,29 @@
+.banner {
+  color: white;
+  width: 95vw;
+  height: 90vh;
+  background: url("https://www.gstatic.com/youtube/img/promos/growth/ytm_lp2_hero_black_desktop_1440x600.png");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 6rem;
+  align-items: center;
+}
+.banner img {
+  margin-bottom: 2rem;
+}
+.largeP {
+  font-weight: 300;
+  font-size: 2.2rem;
+}
+.banner__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+.banner h2 {
+  font-weight: 200;
+  font-size: 2rem;
+}
