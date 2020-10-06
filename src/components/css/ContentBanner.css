@@ -14,5 +14,15 @@
   justify-content: flex-start;
 }
 .bannerContent {
-  width: 50vw;
+  width: 40vw;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+}
+.bannerContent div:nth-child(even) {
+  width: 90%;
+}
+.bannerContent h2 {
+  font-weight: 200;
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
 }
